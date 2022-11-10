@@ -1,0 +1,7 @@
+ID,formular,name,compartment
+cholesterol_c,C27H46O,cholesterol,c
+dehydrocholesterol_c,C27H44O,7-dehydrocholesterol,c)
+pregnenolone_c,C21H32O2,pregnenolone,c
+progesterone_c,C21H30O2,progesterone,'c'
+campesterol_c,C28H48O,campesterol,c
+methyldesmosterol_c,C28H46O,methyldesmosterol,c
