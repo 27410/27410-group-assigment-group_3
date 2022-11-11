@@ -1,0 +1,2 @@
+ID,geneName,name,subsystem,lower_bound,upper_bound,metabolite_list,,,
+R01451,DHCR7,Cholesterol:NAD+ delta7-oxidoreductase,steroid biosynthesis,-1000,1000,nad_c,-1,nadh_c,1
