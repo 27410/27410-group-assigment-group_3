@@ -1,0 +1,29 @@
+from cobra import Model, Reaction, Metabolite
+
+# 5 metabolites
+zymosterol = model.metabolites.get_by_id('zymst_c') # found in the model
+zymosterol.id = "zymosterol"
+
+dehydrocholesterol = Metabolite(
+    '7-dehydrocholersterol', 
+    formula = 'C27H44O',
+    name = 'cholesterol-precursor',
+    compartment = 'c')
+
+cholesterol = Metabolite(
+    'cholesterol',
+    formula = 'C27H46O',
+    name = 'membrane-structure-steroid',
+    compartment = 'c')
+
+pregnenolone = Metabolite(
+    'pregnenolone',
+    formula = 'C21H32O2',
+    name = 'steroid-hormone-precursor',
+    compartment = 'c')
+
+# 4 reactions
+dehydrocholesterol_reductase_24 = Reaction('DHCR24')
+dehydrocholesterol_reductase_7 = Reaction('DHCR7')
+cholesterol_side_chain_cleavage_enzyme = Reaction('CYP11A1')
+hydroxysteroid_dehydrogenase_3_beta = Reaction('3beta-HSD')
