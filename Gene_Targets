@@ -1,2 +1,6 @@
 Evaluation of possible gene targets for overexpression and knockouts. The evaluation is done using Flux Scanning based Enforced Objective Flux (FSEOF) from the CAMEO package.  
 
+
+# Flux through heterologous pathway is dependent on disrupting flux through the natural pathway to Ergosterol
+# erg6 + erg5 deletion, either setting flux = 0 or by cobra.flux_analysis_single_gene_deletion
+
