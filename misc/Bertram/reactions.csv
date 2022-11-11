@@ -1,5 +1,8 @@
 ID,geneName,name,subsystem,lower_bound,upper_bound,metabolite_list,,,,,,,,,
 R07498,DHCR24,Delta(24)-sterol reductase,steroid biosynthesis,-1000,1000,zymst_c,-1,nadph_c,-1,h_c,-1,cholesta8en3betaol_c,1,nadp_c,1
+,DHCR24,Delta(24)-sterol reductase,steroid biosynthesis,-1000,1000,zymst_c,-1,nadph_c,-1,h_c,-1,cholesta8en3betaol_c,1,nadp_c,1
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
 R01451,DHCR7,Cholesterol:NAD+ delta7-oxidoreductase,steroid biosynthesis,-1000,1000,dehydrocholesterol_c,-1,nadh_c,-1,h_c,-1,cholesterol_c,1,nad_c,1
 ,CYP11A1,,steroid biosynthesis,-1000,1000,,,,,,,,,,
 ,3bHSD,,steroid biosynthesis,-1000,1000,,,,,,,,,,
