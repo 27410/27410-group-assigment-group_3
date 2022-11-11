@@ -1,10 +1,13 @@
-ID,geneName,name,subsystem,lower_bound,upper_bound,metabolite_list,,,,,,,,,
-R07498,DHCR24,Delta(24)-sterol reductase,steroid biosynthesis,-1000,1000,zymst_c,-1,nadph_c,-1,h_c,-1,cholesta8en3betaol_c,1,nadp_c,1
-,DHCR24,Delta(24)-sterol reductase,steroid biosynthesis,-1000,1000,zymst_c,-1,nadph_c,-1,h_c,-1,cholesta8en3betaol_c,1,nadp_c,1
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-R01451,DHCR7,Cholesterol:NAD+ delta7-oxidoreductase,steroid biosynthesis,-1000,1000,dehydrocholesterol_c,-1,nadh_c,-1,h_c,-1,cholesterol_c,1,nad_c,1
-,CYP11A1,,steroid biosynthesis,-1000,1000,,,,,,,,,,
-,3bHSD,,steroid biosynthesis,-1000,1000,,,,,,,,,,
-R03353,ERG2,C-8 sterol isomerase ERG2,Steroid biosynthesis,-1000,1000,lathosterol_c,1,Cholesta-8-en-3beta-ol_c,-1
+ID,geneName,name,subsystem,lower_bound,upper_bound,metabolite_list,,,,,,,,,,,,,
+R07498,DHCR24,Delta(24)-sterol reductase,steroid biosynthesis,-1000,1000,zymst_c,-1,nadph_c,-1,h_c,-1,cholesta8en3betaol_c,1,nadp_c,1,,,,
+R05703,DHCR24,Delta(24)-sterol reductase,steroid biosynthesis,-1000,1000,cholesta724dien3betaol_c,-1,nadph_c,-1,h_c,-1,lathosterol_c,1,nadp_c,1,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+R01451,DHCR7,Cholesterol:NAD+ delta7-oxidoreductase,steroid biosynthesis,-1000,1000,dehydrocholesterol_c,-1,nadh_c,-1,h_c,-1,cholesterol_c,1,nad_c,1,,,,
+,CYP11A1,,steroid biosynthesis,-1000,1000,,,,,,,,,,,,,,
+,3bHSD,,steroid biosynthesis,-1000,1000,,,,,,,,,,,,,,
+R03353,ERG2,C-8 sterol isomerase ERG2,Steroid biosynthesis,-1000,1000,lathosterol_c,1,Cholesta-8-en-3beta-ol_c,-1,,,,,,,,,,
 R07215,ERG3,Delta(7)-sterol 5(6)-desaturase ERG3,Steroid biosynthesis,-1000,1000,lathosterol_c,-1,Ferrocytochrome b5,-2,Oxygen,-1,h_c,-2,dehydrocholesterol_c,1,Ferricytochrome b5,-2,h2o_c,-2
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
