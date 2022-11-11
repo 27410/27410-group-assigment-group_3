@@ -5,5 +5,5 @@ R01451,DHCR7,Cholesterol:NAD+ delta7-oxidoreductase,steroid biosynthesis,0,1000,
 ECYP11A1,CYP11A1,Cholesterol monooxygenase (side-chain-cleaving),steroid biosynthesis,0,1000,cholesterol_c,-1,o2_c,-3,h_c,-6,reducedadrenalferredoxin_c,-6,pregnenolone_c,1,methylpentanal_c,1,oxidizedadrenalferredoxin,,h2o_c,4
 R02216,3bHSD,3beta-hydroxy-Delta5-steroid dehydrogenase,steroid biosynthesis,-1000,1000,pregnenolone_c,-1,nad_c,-1,progesterone_c,1,nadh_c,1,h_c,1,,,,,,
 R03353,ERG2,C-8 sterol isomerase ERG2,Steroid biosynthesis,0,1000,lathosterol_c,1,cholesta8en3betaol_c,-1,,,,,,,,,,,,
-R07215,ERG3,Delta(7)-sterol 5(6)-desaturase ERG3,Steroid biosynthesis,0,1000,lathosterol_c,-1,Ferrocytochrome b5,-2,Oxygen,-1,h_c,-2,dehydrocholesterol_c,1,Ferricytochrome b5,-2,h2o_c,-2,,
+R07215,ERG3,Delta(7)-sterol 5(6)-desaturase ERG3,Steroid biosynthesis,0,1000,lathosterol_c,-1,Ferrocytochrome b5,-2,o2_c,-1,h_c,-2,dehydrocholesterol_c,1,Ferricytochrome b5,-2,h2o_c,-2,,
 R04804,ERG2,C-8 sterol isomerase ERG2,Steroid biosynthesis,0,1000,zymst_c,-1,cholesta724dien3betaol_c,1,,,,,,,,,,,,
