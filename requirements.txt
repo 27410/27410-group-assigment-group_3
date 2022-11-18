@@ -1,1 +1,17 @@
 
+
+Expectations (everyone):
+
+Add heterologous pathway to GSM (if needed)
+Calculate theoretical maximum yields for chosen product for suitable carbon sources
+Plot phenotypic phase planes for relevant process conditions (anaerobic vs aerobic for example, what does make more sense?)
+Additional expectations for Category II projects:
+
+Computationally enumerate all potential production pathways to your chosen product (even if it is a native product) and score them by different metrics (yield, number of steps added,)
+Compute gene knockout strategies using algorithms like OptKnock, OptGene and OptCouple
+Compute over-expression and down-regulation targets
+Compute co-factor swap targets
+Assess your predicted strain designs using simulations and pathway visualizations
+Assess manually derived strain designs using model simulations
+Simulate batch cultivations using dynamic FBA
+Based on your computations, provide a top 10 list of most promising cell factory designs. The criteria for "most promising" are the number of modifications, yield, growth rate and others you might define
