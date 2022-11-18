@@ -7,7 +7,8 @@
 
  - ~~Add heterologous pathway to GSM (if needed)~~ 
  - Calculate theoretical maximum yields for chosen product for suitable carbon sources (*Qvist*)
- - Plot phenotypic phase planes for relevant process conditions (anaerobic vs aerobic for example, what does make more sense?)
+ - Plot phenotypic phase planes for relevant process conditions (anaerobic vs aerobic for example, what does make more sense?) (*Frederik will update the script*)
+
  
  
  ## Additional expectations for Category II projects:
