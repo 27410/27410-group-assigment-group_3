@@ -8,4 +8,3 @@ R03353,YMR202W,C-8 sterol isomerase ERG2,Steroid biosynthesis,0,1000,lathosterol
 R07215,YLR056W,Delta(7)-sterol 5(6)-desaturase ERG3,Steroid biosynthesis,0,1000,lathosterol_c,-1,nadph_c,-1,o2_c,-1,h_c,-1,dehydrocholesterol_c,1,nadp_c,1,h2o_c,2,,
 R04804,YMR202W,C-8 sterol isomerase ERG2,Steroid biosynthesis,0,1000,zymst_c,-1,cholesta724dien3betaol_c,1,,,,,,,,,,,,
 R_methylpentanal_t,,methylpentanal transport diffusion,,-1000,1000,methylpentanal_c,-1,methylpentanal_e,1
-EX_methylpentanal,,methylpentanal exchange,,0,1000,methylpentanal_e,-1
