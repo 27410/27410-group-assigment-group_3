@@ -13,6 +13,7 @@
  
  ## Additional expectations for Category II projects:
 
+
  - Computationally enumerate all potential production pathways to your chosen product (even if it is a native product) and score them by different metrics (yield, number of steps added,)
  - Compute gene knockout strategies using algorithms like OptKnock, OptGene and OptCouple
  - Compute over-expression and down-regulation targets
