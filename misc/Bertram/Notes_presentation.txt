@@ -1,0 +1,26 @@
+Check squalene yield/flux. 
+Kan vi prøve at efterligne det litteraturen har gjort for at få rekorden for squalene production?
+
+WOOPS! Check artificial something in the circle you are making in the heterologous pathway.
+It is called FUTILE CYCLING
+
+What is the growth rate when you calculate yield! Good to mention. 
+
+Can we maybe add some boundaries to our phenotypic phase plane plot? To make it more realistic
+
+A group made an interactive pathway map with Escher Builder. That is really cool!
+
+FSEOF is very used.
+But most people use another plot than we do. 
+
+co-factor swapping seems to be a pretty unique thing that we do.
+
+Growth media optimization? (men ikke et requirement)
+
+Kan vi påvise at generne vi knockouter resulterer i basically ingen growth?
+
+MOMA?
+
+Network?
+
+
