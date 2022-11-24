@@ -1,0 +1,6 @@
+ID,geneName,name,subsystem,lower_bound,upper_bound,metabolite_list,,,,,,,,,,,,,,,
+MNXR1551,MNXR1551,,steroid biosynthesis,0,1000,dehydrodesmosterol_c,-1,nadph_c,-1,h_c,-1,desmosterol_c,1,nadp_c,1,,,,,,
+MNXR11345,MNXR11345,,steroid biosynthesis,-1000,1000,dehydrodesmosterol_c,-1,nadph_c,-1,h_c,-1,dehydrocholesterol_c,1,nadp_c,1,,,,,,
+MNXR5471,MNXR5471,,steroid biosynthesis,-1000,1000,desmosterol_c,-1,nadph_c,-1,h_c,-1,cholesterol_c,1,nadp_c,1,,,,,,
+MNXR3338,MNXR3338,,steroid biosynthesis,0,1000,cholesta724dien3betaol_c,-1,nadph_c,-1,o2_c,-1,h_c,-1,dehydrodesmosterol_c,1,nadp_c,1,h2o_c,2,,
+MNXR4011,MNXR4011,,steroid biosynthesis,-1000,1000,cholesterol_c,-1,o2_c,-1,h_c,-1,nadph_c,-1,pregnenolone_c,1,methylpentanal_c,1,nadp_c,1,h2o_c,2
