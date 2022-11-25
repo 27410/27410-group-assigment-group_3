@@ -7,3 +7,8 @@ R02216,HSD3B,3beta-hydroxy-Delta5-steroid dehydrogenase,steroid biosynthesis,-10
 R03353,YMR202W,C-8 sterol isomerase ERG2,Steroid biosynthesis,0,1000,lathosterol_c,1,cholesta8en3betaol_c,-1,,,,,,,,,,,,
 R07215,YLR056W,Delta(7)-sterol 5(6)-desaturase ERG3,Steroid biosynthesis,0,1000,lathosterol_c,-1,nadph_c,-1,o2_c,-1,h_c,-1,dehydrocholesterol_c,1,nadp_c,1,h2o_c,2,,
 R04804,YMR202W,C-8 sterol isomerase ERG2,Steroid biosynthesis,0,1000,zymst_c,-1,cholesta724dien3betaol_c,1,,,,,,,,,,,,
+MNXR1551,MNXR1551,,steroid biosynthesis,0,1000,dehydrodesmosterol_c,-1,nadph_c,-1,h_c,-1,desmosterol_c,1,nadp_c,1,,,,,,
+MNXR11345,MNXR11345,,steroid biosynthesis,-1000,1000,dehydrodesmosterol_c,-1,nadph_c,-1,h_c,-1,dehydrocholesterol_c,1,nadp_c,1,,,,,,
+MNXR5471,MNXR5471,,steroid biosynthesis,-1000,1000,desmosterol_c,-1,nadph_c,-1,h_c,-1,cholesterol_c,1,nadp_c,1,,,,,,
+MNXR3338,MNXR3338,,steroid biosynthesis,0,1000,cholesta724dien3betaol_c,-1,nadph_c,-1,o2_c,-1,h_c,-1,dehydrodesmosterol_c,1,nadp_c,1,h2o_c,2,,
+MNXR4011,MNXR4011,,steroid biosynthesis,-1000,1000,cholesterol_c,-1,o2_c,-1,h_c,-1,nadph_c,-1,pregnenolone_c,1,methylpentanal_c,1,nadp_c,1,h2o_c,2
