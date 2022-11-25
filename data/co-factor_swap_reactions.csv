@@ -1,0 +1,2 @@
+ID,geneName,name,subsystem,lower_bound,upper_bound,metabolite_list,,,,,,,,,,,,,,,
+R01063,GDP1,D-glyceraldehyde-3-phosphate:NADP+ oxidoreductase,Glycolysis,-1000,1000,g3p_c,-1,nadp_c,-1,pi_c,-1,13dpg_c,1,h_c,1,nadph_c,1

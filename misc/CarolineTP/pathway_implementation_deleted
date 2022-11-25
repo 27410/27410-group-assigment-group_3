@@ -27,3 +27,23 @@ dehydrocholesterol_reductase_24 = Reaction('DHCR24')
 dehydrocholesterol_reductase_7 = Reaction('DHCR7')
 cholesterol_side_chain_cleavage_enzyme = Reaction('CYP11A1')
 hydroxysteroid_dehydrogenase_3_beta = Reaction('3beta-HSD')
+
+# FSEOF
+df.T.plot()
+plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+plt.xlabel("Increasing progesterone flux");
+plt.ylabel(r"Flux $\left[\dfrac{mmol}{gDW\cdot h}\right]$");
+plt.show()
+
+# Reactions where there is a significant flux change
+df = df.sort_values([1], ascending = False) # sorting the dataframe
+lmt = 3
+significant_flux_change = ((df > lmt) | (df < -lmt)).all(axis=1)
+df = df.loc[significant_flux_change] # removing reactions from dataframe
+df
+
+df.T.plot()
+plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+plt.xlabel("Increasing progesterone flux");
+plt.ylabel(r"Flux $\left[\dfrac{mmol}{gDW\cdot h}\right]$");
+plt.show()
