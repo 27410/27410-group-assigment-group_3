@@ -80,3 +80,5 @@ with model_ERG5_ERG6:
     print('Progesterone when ERG5 and ERG6 is knocked out: ', round(model_ERG5_ERG6.optimize().objective_value,3))
 
 model.reactions.R02216.upper_bound
+
+print(model.reactions.get_by_id(target_reactions_df.index.values[i]).id, model.reactions.get_by_id(target_reactions_df.index.values[i]).name, model.reactions.get_by_id(target_reactions_df.index[i]))
