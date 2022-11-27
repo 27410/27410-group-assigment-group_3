@@ -47,3 +47,36 @@ plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
 plt.xlabel("Increasing progesterone flux");
 plt.ylabel(r"Flux $\left[\dfrac{mmol}{gDW\cdot h}\right]$");
 plt.show()
+
+# plot of reactions with highest relative flux change
+target_reactions_df_plot = target_reactions_df.iloc[:,:10]
+target_reactions_df_plot = target_reactions_df_plot.sort_values([1], ascending = False)
+fig = target_reactions_df_plot.plot(legend=None, kind='bar', figsize=(25, 10), grid =False);
+fig.set_ylabel('Change in flux')
+fig.set_xlabel('Reaction ID')
+fig.set_title('Flux scanning based on Enforced Objective Flux', size=25)
+
+from cobra.io import write_sbml_model
+model_ERG2_overexp = model.copy()
+# Saving new model
+outfilename = "models/iMM904_progesterone_Boundary_TEST.xml"
+model_ERG2_overexp.id = outfilename.split("/")[-1].split(".")[0]
+print(f"Saving to {outfilename}")
+write_sbml_model(model_ERG2_overexp, outfilename)
+
+# Load model
+infilename = 'models/iMM904_progesterone_Boundary_TEST.xml'
+print(f"Loading {infilename}")
+model_boundary_test = read_sbml_model(infilename)
+
+model_boundary_test.reactions.GLYCDy.lower_bound
+
+# Progesterone production
+with model:
+    model.objective = model.reactions.R02216
+    print('Progesterone when complete model: ', round(model.optimize().objective_value,3))
+with model_ERG5_ERG6:
+    model_ERG5_ERG6.objective = model_ERG5_ERG6.reactions.R02216
+    print('Progesterone when ERG5 and ERG6 is knocked out: ', round(model_ERG5_ERG6.optimize().objective_value,3))
+
+model.reactions.R02216.upper_bound
