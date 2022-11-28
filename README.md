@@ -3,15 +3,16 @@
 
 # 27410 - Group assignment - Group 3 - Progesterone production in S. cerevisiae
 
-> Dear students, thank you for accepting the group assignment. Please fill in the
-> requested information below and above ([Group Number] and [TITLE]) and remove this quoted part before submission (everything prepended with a >).
+
+
 > For this to work you will also have to keep `requirements.txt` up to date (by running `pip freeze > requirements.txt`).
 > Furthermore, this will only work if you decide to make your repository public (which you can do under Settings -> Options),
 > which I would encourage you to do – up to you. A lot of good science happens out in the open these days.
 > Good luck!
 
 ## Project summary (<300 words)
-Describe the overall aim of your project and what you have achieved.
+
+We achieved  ?????
 
 ## Project overview
-Describe how your project is organized ...
+The project is organized in three parts; First,
