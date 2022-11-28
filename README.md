@@ -11,8 +11,8 @@
 > Good luck!
 
 ## Project summary (<300 words)
+During our project we achieved to implement the heterologous pathway producing the steroid hormone progesterone in *S. cerevisiae*. This implementation is a step in the direction of ensuring a sustainable and healthy future for all. Progesterone is a high-value compound e.g. used in birth control pills and
 
-We achieved  ?????
 
 ## Project overview
 The project is organized in three parts; First,
