@@ -11,8 +11,29 @@
 > Good luck!
 
 ## Project summary (<300 words)
-During our project we achieved to implement the heterologous pathway producing the steroid hormone progesterone in *S. cerevisiae*. This implementation is a step in the direction of ensuring a sustainable and healthy future for all. Progesterone is a high-value compound e.g. used in birth control pills and
-
+We implemented the heterologous pathway producing the steroid hormone progesterone in the host organism *S. cerevisiae*. Progesterone is a high-value compound, e.g. used in birth control pills (Howie 1985; Nath et al. 2010), currently produced heavily as a semi-synthesis reaction (Jesus et al. 2016; Al Jasem 2014; Dong et al. 2015). If progesterone can be produced in a cell factory, it would create a sustainable "green" production, meaning that this implementation is a step in the direction of ensuring a sustainable and healthy future for all. The project is organized as follows; First, the implementation and characterization of the heterologous pathway for the production of progesterone. This includes the pathway implementation, calculating maximum yield, and performing a phenotypic phase plane analysis using cameo. The second part is concerned with our cell factory engineering strategies and involves manually knocking out relevant genes based on literature reviews, as well as performing gene target analysis to locate other relevant genes that can be knocked out, or up- or downregulated, and a co-factor swap analysis for better performance of the strain. The last part assesses the strains computed in this project and evaluates them using several factors. In the end, we succeeded with implementing the pathway producing progesterone and improving it using simulations.
 
 ## Project overview
-The project is organized in three parts; First,
+- The report for the project can be found in the 'Report.ipynb' file. 
+- The required environment needed to run the scripts are located in the 'requirements.txt' file.
+- All figures/images used are located in the 'figures' folder.
+- All models used are located in the 'models' folder.
+- The report is split up into 8 subfolders, which are linked in the main report
+    - 01_GSM_Comparison.ipynb
+        - Comparison of 4 GSMs and the parameters we chose our GSM from
+    - 02_heterologous_pathway_implementation.ipynb
+        - Contains the code needed to implement the heterologous pathway
+    - 03_maximum_theoretical_yield.ipynb
+        - Calculations of maximum yield and productivity on default and alternative carbon sources
+    - 04_phenotypic_phase_plane_analysis
+        - A phenotypic phase analysis examining the relationship between parameters e.g. between glucose and oxygen uptake rates
+    - 05_gene_target_analysis.ipynb
+        - Analysis of potential gene target for up- or downregulation to improve production
+    - 06_co-factor_swap.ipynb
+        - Swap of reaction using NAD co-factor -> NADP co-factor to to improve productivity of progesterone
+    - 07_DFBA
+        - Dynamic flux balance analysis to mimick "real-life" conditions
+    - 08_strain_assessment.ipynb
+        - The final assessment of computed strains and evaluation of top 10 best performing strains
+- In addition, the .json and .csv files loaded in the online version Escher to create the heterologous pathway map can be found as 'model.json'  (a .json file containing the model) and flux.csv (a .csv file containing the simulated fluxes)
+    
