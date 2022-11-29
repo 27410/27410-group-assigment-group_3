@@ -18,21 +18,21 @@ We implemented the heterologous pathway producing the steroid hormone progestero
 - The required environment needed to run the scripts is located in the 'requirements.txt' file.
 - All figures/images used are located in the 'figures' folder.
 - All models used are located in the 'models' folder.
-- The report is split up into 8 subfolders, which are linked in the main report:
+- The code for the report is split up into 8 .ipynb files, which are linked to in the main report:
     - 01_GSM_Comparison.ipynb
-        - Comparison of 4 GSMs and the parameters we chose our GSM from
+        - Comparison of 4 GSMs and the parameters we chose our GSM from.
     - 02_heterologous_pathway_implementation.ipynb
-        - Contains the code needed to implement the heterologous pathway
+        - Contains the code needed to implement the heterologous pathway.
     - 03_maximum_theoretical_yield.ipynb
-        - Calculations of maximum yield and productivity on default and alternative carbon sources
+        - Calculations of maximum yield and productivity on default and alternative carbon sources.
     - 04_phenotypic_phase_plane_analysis
-        - A phenotypic phase analysis examining the relationship between parameters e.g. between glucose and oxygen uptake rates
+        - A phenotypic phase analysis examining the relationship between parameters e.g. between glucose and oxygen uptake rates.
     - 05_gene_target_analysis.ipynb
-        - Analysis of potential gene target for up- or downregulation to improve production
+        - Analysis of potential gene target for up- or downregulation to improve production.
     - 06_co-factor_swap.ipynb
-        - Swap of reaction using NAD co-factor -> NADP co-factor to improve productivity of progesterone
+        - Swap of reaction using NAD co-factor -> NADP co-factor to improve productivity of progesterone.
     - 07_DFBA
-        - Dynamic flux balance analysis to mimick "real-life" conditions
+        - Dynamic flux balance analysis to mimick "real-life" conditions.
     - 08_strain_assessment.ipynb
         - The final assessment of computed strains and evaluation of top 10 best performing strains
 - In addition, the .json and .csv files loaded in the online version Escher to create the heterologous pathway map can be found as 'model.json' (a .json file containing the model) and flux.csv (a .csv file containing the simulated fluxes).
