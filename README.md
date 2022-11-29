@@ -8,7 +8,7 @@ During our project, we implemented the heterologous pathway to produce the stero
 
 ## Project overview
 - The report for the project can be found in the 'Report.ipynb' file. 
-- The required environment needed to run the scripts is located in the 'requirements.txt' file.
+- The required environment needed to run the scripts is located in the 'requirements.txt' file. For the dynamic flux balance analysis the 'requirements_dfba.txt' file is needed.
 - All figures/images used are located in the 'figures' folder.
 - All models used are located in the 'models' folder.
 - In the 'escher' folder,  the .json and .csv files loaded in the online version Escher to create the heterologous pathway map can be found as 'iMM904_progesterone.json' (a .json file containing the model) and fluxes.csv (a .csv file containing the simulated fluxes).
