@@ -3,13 +3,6 @@
 
 # 27410 - Group assignment - Group 3 - Progesterone production in *S. cerevisiae*
 
-
-
-> For this to work you will also have to keep `requirements.txt` up to date (by running `pip freeze > requirements.txt`).
-> Furthermore, this will only work if you decide to make your repository public (which you can do under Settings -> Options),
-> which I would encourage you to do – up to you. A lot of good science happens out in the open these days.
-> Good luck!
-
 ## Project summary (<300 words)
 During our project, we implemented the heterologous pathway to produce the steroid hormone progesterone, in the host organism *S. cerevisiae*. Progesterone is a high-value compound, e.g., used in birth control pills, currently produced heavily as a semi-synthesis reaction. If progesterone can be produced in a cell factory, it would create a sustainable "green" production, meaning that this implementation is helps ensure a sustainable and healthy future for all. The project was organized as follows; First, the implementation and characterization of the heterologous pathway to produce progesterone. This includes the pathway implementation, calculating maximum yield, and performing a phenotypic phase plane analysis using cameo. The second part concerned the cell factory engineering strategies, including manually knocking out relevant genes based on literature reviews, as well as performing gene target analysis to locate other relevant genes that can be knocked-out, or up- or downregulated, and a co-factor swap analysis for better performance of the strain. The last part assessed the computed strains in this project and evaluated them using several factors. 
 
