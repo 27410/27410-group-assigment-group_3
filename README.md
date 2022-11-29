@@ -30,7 +30,7 @@ We implemented the heterologous pathway producing the steroid hormone progestero
     - 05_gene_target_analysis.ipynb
         - Analysis of potential gene target for up- or downregulation to improve production
     - 06_co-factor_swap.ipynb
-        - Swap of reaction using NAD co-factor -> NADP co-factor to to improve productivity of progesterone
+        - Swap of reaction using NAD co-factor -> NADP co-factor to improve productivity of progesterone
     - 07_DFBA
         - Dynamic flux balance analysis to mimick "real-life" conditions
     - 08_strain_assessment.ipynb
