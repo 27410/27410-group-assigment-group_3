@@ -3,8 +3,18 @@
 
 # 27410 - Group assignment - Group 3 - Progesterone production in *S. cerevisiae*
 
-## Project summary (<300 words)
-During our project, we implemented the heterologous pathway to produce the steroid hormone progesterone, in the host organism *S. cerevisiae*. Progesterone is a high-value compound, e.g., used in birth control pills, currently produced heavily as a semi-synthesis reaction. If progesterone can be produced in a cell factory, it would create a sustainable "green" production, meaning that this implementation is helps ensure a sustainable and healthy future for all. The project was organized as follows; First, the implementation and characterization of the heterologous pathway to produce progesterone. This includes the pathway implementation, calculating maximum yield, and performing a phenotypic phase plane analysis using cameo. The second part concerned the cell factory engineering strategies, including manually knocking out relevant genes based on literature reviews, as well as performing gene target analysis to locate other relevant genes that can be knocked-out, or up- or downregulated, and a co-factor swap analysis for better performance of the strain. The last part assessed the computed strains in this project and evaluated them using several factors. 
+## Project summary
+During our project, we implemented the heterologous pathway to produce the steroid hormone progesterone, in the host organism *S. cerevisiae*. Progesterone is a high-value compound mainly used as a contraceptive. It is currently produced in s semi-synthetic manner causing a burden to the environment. 
+Producing progesterone via biosynthesis in a cell factory is recognized as a promising 'greener' alternative production method. 
+The purpose of this project is to design a progesterone-producing cell factory using computational tools.
+<!-- If progesterone can be produced in a cell factory, it would create a sustainable "green" production, meaning that this implementation is helps ensure a sustainable and healthy future for all.  -->
+
+The project was organized as follows; First, the implementation and characterization of the heterologous pathway to produce progesterone. This part includes calculating maximum yield and performing a phenotypic phase plane analysis. 
+The second part focused on improving the progesterone and biomass productivity. We identified gene targets for knock-outs, up- and down-regulation. Additionally, we implemented a co-factor swapping strategy to improve the co-factor balance. 
+The last part assessed the computed strains by evaluating and comparing them through phenotypic simulations.
+
+<!-- finding gene targets for knockadditional cell factory engineering strategies. -->
+<!-- including manually knocking out relevant genes based on literature reviews, as well as performing gene target analysis to locate other relevant genes that can be knocked-out, or up- or downregulated, and a co-factor swap analysis for better performance of the strain.  -->
 
 ## Project overview
 - The report for the project can be found in the 'Report.ipynb' file. 
